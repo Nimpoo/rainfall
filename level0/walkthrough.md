@@ -130,7 +130,7 @@ No RELRO        No canary found   NX disabled   No PIE          No RPATH   No RU
 level1@RainFall:~$
 ```
 
-- Here we cann see again these breachs checker but not the same results, I saw all that later.
+- Here we can see again these breachs checker but not the same results, I saw all that later.
 
 # level0 complet !
 ![yeah](../assets/yeah.gif)
