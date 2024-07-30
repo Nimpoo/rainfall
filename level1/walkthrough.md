@@ -26,9 +26,9 @@ level1@RainFall:~$
 ```
 
 _The ritual_ :
-`pwd`: `/home/user/level1`
-`id`: `uid=2030(level1) gid=2030(level1) groups=2030(level1),100(users)`
-`ls -la`: 
+- `pwd`: `/home/user/level1`
+- `id`: `uid=2030(level1) gid=2030(level1) groups=2030(level1),100(users)`
+- `ls -la`: 
 ```sh
 total 17
 dr-xr-x---+ 1 level1 level1   80 Mar  6  2016 .
