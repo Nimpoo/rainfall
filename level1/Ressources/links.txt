@@ -1,8 +1,8 @@
-BufferOverflow :
-	- https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/
-
 Memory Storage and Assembly :
 	- https://beta.hackndo.com/stack-introduction/
 	- https://beta.hackndo.com/memory-allocation/
 	- https://beta.hackndo.com/assembly-basics/
+
+BufferOverflow :
 	- https://beta.hackndo.com/buffer-overflow/
+	- https://dhavalkapil.com/blogs/Buffer-Overflow-Exploit/
