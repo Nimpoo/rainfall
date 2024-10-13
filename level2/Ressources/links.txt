@@ -1,0 +1,11 @@
+Assembly and GDB :
+	- https://beta.hackndo.com/introduction-a-gdb/
+	- https://fr.wikipedia.org/wiki/GNU_Debugger
+
+Ret-2-libc :
+	- https://www.ired.team/offensive-security/code-injection-process-injection/binary-exploitation/return-to-libc-ret2libc
+	- https://beta.hackndo.com/retour-a-la-libc/
+	- https://www.youtube.com/watch?v=M7NQfGobQNo
+
+Offset generator :
+	- https://wiremask.eu/tools/buffer-overflow-pattern-generator/?
