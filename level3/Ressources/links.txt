@@ -1,0 +1,9 @@
+Format String Attack :
+	- https://owasp.org/www-community/attacks/Format_string_attack
+	- https://ctf101.org/binary-exploitation/what-is-a-format-string-vulnerability/
+
+man printf :
+	- https://koor.fr/C/cstdio/fprintf.wp
+
+New decompiler :
+	- https://dogbolt.org/
