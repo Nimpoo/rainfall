@@ -1,0 +1,4 @@
+man printf (again) :
+	- https://koor.fr/C/cstdio/fprintf.wp
+
+And other links from the previous level. https://github.com/Nimpoo/rainfall/blob/main/level3/Ressources/links.txt
