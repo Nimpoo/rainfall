@@ -1,0 +1,4 @@
+Buffer overflow pattern generator :
+	- https://wiremask.eu/tools/buffer-overflow-pattern-generator/
+
+And all other links from the level2 -> https://github.com/Nimpoo/rainfall/blob/main/level2/Ressources/links.txt
