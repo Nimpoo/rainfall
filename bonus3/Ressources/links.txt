@@ -1,0 +1,2 @@
+atoi :
+	- https://koor.fr/C/cstdlib/atoi.wp
