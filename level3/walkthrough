@@ -238,7 +238,7 @@ By doing this, we ALREADY know the address of `m` will be access at the 4th posi
 
 - With all format string, we ca passed a number followed by a dollar sign `$` and the format string we want to use. This allows us to specify the argument number to use for the format string. For example, `%2$d` will use the second argument passed to `printf` as an integer.
 
-**Where's the other arguments if in the [code (line 13)](https://github.com/Nimpoo/rainfall/blob/main/level3/source/v.c), `printf` is only used for a `local_20c` ?**
+**Where's the other arguments if in the [code (line 11)](https://github.com/Nimpoo/rainfall/blob/main/level3/source), `printf` is only used for a `local_20c` ?**
 
 - `printf` is a variadic function, it takes a variable number of arguments. We "invented" the other arguments :
 
