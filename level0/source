@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+
+#define EXPECTED_VALUE 423
+
+int32_t main(int argc, char *argv[])
+{
+	int input = atoi(argv[1]);
+
+	if (input != EXPECTED_VALUE) {
+		fprintf(stderr, "No !\n");
+		return 1;
+	}
+	
+	else {
+		char *shell = strdup("/bin/sh");
+		gid_t gid = getegid();
+		uid_t uid = geteuid();
+		setresgid(gid, gid, gid);
+		setresuid(uid, uid, uid);
+		char *args[] = {shell, NULL};
+		execv(shell, args);
+	}
+
+	return 0;
+}
