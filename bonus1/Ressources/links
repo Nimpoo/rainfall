@@ -1,0 +1,9 @@
+Integer Overflow :
+	- https://en.wikipedia.org/wiki/Integer_overflow
+	- https://www.welivesecurity.com/2022/02/21/integer-overflow-how-it-occur-can-be-prevented/
+
+Signed and Unsigned Integer :
+	- https://www.geeksforgeeks.org/difference-between-unsigned-int-and-signed-int-in-c/
+
+Signed/Unsigned number converter :
+	- https://onlinetoolz.net/unsigned-signed#base=10&value=-4294967252&bits=32
