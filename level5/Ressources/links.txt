@@ -1,0 +1,16 @@
+Global Offset Table :
+	- https://en.wikipedia.org/wiki/Global_Offset_Table
+
+Procedure Linkage Table :
+	- https://maskray.me/blog/2021-09-19-all-about-procedure-linkage-table
+
+Global Offset Table and Procedure Linkage Table :
+	- https://book.hacktricks.xyz/fr/reversing-and-exploiting/linux-exploiting-basic-esp/arbitrary-write-2-exec/aw2exec-got-plt
+	- https://www.technovelty.org/linux/plt-and-got-the-key-to-code-sharing-and-dynamic-libraries.html
+
+GOT, PLT and dynamic/static compilation :
+	- https://www.linkedin.com/pulse/plt-got-compilation-statique-vs-dynamique-ahmad-abdallah/
+
+Other documentation :
+	- https://www.quora.com/What-is-a-so-file-in-Linux
+	- https://www.rapidtables.com/convert/number/hex-to-decimal.html
