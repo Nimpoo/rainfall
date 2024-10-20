@@ -5,7 +5,7 @@
 
 #define EXPECTED_VALUE 423
 
-int32_t main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int input = atoi(argv[1]);
 
@@ -13,11 +13,11 @@ int32_t main(int argc, char *argv[])
 		fprintf(stderr, "No !\n");
 		return 1;
 	}
-	
+
 	else {
 		char *shell = strdup("/bin/sh");
-		gid_t gid = getegid();
-		uid_t uid = geteuid();
+		unsigned int gid = getegid();
+		unsigned int uid = geteuid();
 		setresgid(gid, gid, gid);
 		setresuid(uid, uid, uid);
 		char *args[] = {shell, NULL};
