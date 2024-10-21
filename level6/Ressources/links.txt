@@ -1,4 +1,8 @@
+Heap-Based Buffer Overflow :
+	- https://cwe.mitre.org/data/definitions/122.html
+
 Buffer overflow pattern generator :
 	- https://wiremask.eu/tools/buffer-overflow-pattern-generator/
 
-And all other links from the level2 -> https://github.com/Nimpoo/rainfall/blob/main/level2/Ressources/links.txt
+And all other links from the level2 for
+all other notions to apprehende -> https://github.com/Nimpoo/rainfall/blob/main/level2/Ressources/links.txt

