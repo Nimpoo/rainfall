@@ -296,8 +296,6 @@ In order :
 +------------------------------+
 |     Address of system()      |  <-- EIP redirected to system()
 +------------------------------+
-|   4 empty bytes (padding)    |  <-- Stack alignment
-+------------------------------+
 |       Address of exit()      |  <-- Address of the exit() function
 +------------------------------+
 |      Old return address      |  <-- Buffer overwritten here
@@ -440,8 +438,6 @@ If we take our previous scheme of the stack by adding the address of the `main` 
 |       "/bin/sh" string       |  <-- Argument for system() ("/bin/sh" string)
 +------------------------------+
 |     Address of system()      |  <-- EIP redirected to system()
-+------------------------------+
-|   4 empty bytes (padding)    |  <-- Stack alignment
 +------------------------------+
 |       Address of exit()      |  <-- Address of the exit() function
 +------------------------------+
