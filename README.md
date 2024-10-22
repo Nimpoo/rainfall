@@ -18,6 +18,8 @@ This project introduces the **exploitation of breaches in files**, **memory mani
 
 _RainFall_ can also be an introduction of the language **ASM** (Assembly) if you never used it before. Sometimes, read the desassembly of a file can be very useful to understand the code and find the breach. After finishing this project and _[OverRide](https://github.com/Nimpoo/override)_, continuing with _[libasm](https://github.com/Nimpoo/libasm)_ is not a bad idea if the language `ASM` is interesting you.
 
+I write this `README.md` after having resolve all the levels with my bro [Noah](https://github.com/noalexan). Even than _SnowCrash_, each level documents the steps I took to solve the challenge, the tools I used, and even the mistakes I made. I aim to transcribe my logic, and my research, and it's more technical than the previous project.
+
 # Virtual Machine Setup
 
 The subject give to us a pdf file with all rules of the project. And an image disk that we have to run with. Personally, I use qemu to run it. But you can use VirtualBox or VMware if you want.
