@@ -35,7 +35,7 @@ Just after that, I can connect to my machine with the following command:
 And for get the files from the virtual machine, I use scp:
 
 ```sh
-➜  ~ scp -P 4242 level0@127.0.0.1:/home/user/level06/level0 /Users/mayoub/Desktop
+➜  ~ scp -P 4242 level0@127.0.0.1:/home/user/level0/level0 /Users/mayoub/Desktop
 ```
 
 # _<u>🚨 SPOILER ZONE 🚨</u>_
