@@ -25,8 +25,6 @@ No RELRO        No canary found   NX disabled   No PIE          No RPATH   No RU
 level6@RainFall:~$
 ```
 
-# [Garp](https://youtu.be/vmSSfB2dcB8?si=sujn8Ga-NeHYkQq4) ---> Best character
-
 ```sh
 level6@RainFall:~$ ./level6 'Joyboy... Has returned !'
 Nope

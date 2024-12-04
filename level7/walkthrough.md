@@ -25,8 +25,6 @@ No RELRO        No canary found   NX disabled   No PIE          No RPATH   No RU
 level7@RainFall:~$
 ```
 
-# Kid ---> Dumbest pirate of the worst generation
-
 ```sh
 level7@RainFall:~$ ./level7
 Segmentation fault (core dumped)

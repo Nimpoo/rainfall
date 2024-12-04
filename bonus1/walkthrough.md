@@ -25,8 +25,6 @@ No RELRO        No canary found   NX disabled   No PIE          No RPATH   No RU
 bonus1@RainFall:~$
 ```
 
-# [Uta - New Genesis](https://www.youtube.com/watch?v=6lnnPnr_0SU)
-
 ```sh
 bonus1@RainFall:~$ ./bonus1
 Segmentation fault (core dumped)

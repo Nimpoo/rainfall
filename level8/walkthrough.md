@@ -25,8 +25,6 @@ No RELRO        No canary found   NX disabled   No PIE          No RPATH   No RU
 level8@RainFall:~$
 ```
 
-# Sengoku ---> Best Marine (after Garp The Hero)
-
 ```sh
 level8@RainFall:~$ ./level8
 (nil), (nil)
